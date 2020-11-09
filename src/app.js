@@ -30,8 +30,8 @@ app.get("/login", (req,res) =>{
     res.render('login')
 })
 
-app.get("/logged", (req,res) =>{
-    res.render('logged')
+app.get("/chat", (req,res) =>{
+    res.render('chat')
 })
 
 
