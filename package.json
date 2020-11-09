@@ -1,0 +1,16 @@
+{
+  "name": "28-gam-modi-smaj",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Bhatiya Hanshal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6"
+  },
+  "description": ""
+}

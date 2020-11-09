@@ -1,0 +1,21 @@
+<div class="post-div" id="post-div">
+
+</div>
+
+<footer class="d-flex">
+                    <a herf="/" class="btn btn-success"><i class="fas fa-home fa-2x"></i></a>
+                    <a href="/search" class="btn btn-primary"><i class="fas fa-search fa-2x"></i></a>
+                    <a href="/about" class="btn btn-success about">i</a>
+                    <a href="/chat" class="btn btn-primary"><i class="fas fa-comments fa-2x"></i></a>
+                    <a href="/login" class="btn btn-dark" id="log"><i class="fas fa-user-tie fa-2x"></i></a>
+                    <button class="btn btn-light post postt" id="post"><i class="fas fa-plus fa-2x"></i></button>
+</footer>
+
+<script>
+                    $('.post-div').slideToggle(-10)
+                    $('document').ready(()=>{
+                                        $('.post').click(()=>{
+                                                            $('.post-div').slideToggle()
+                                        })
+                    })
+</script>
